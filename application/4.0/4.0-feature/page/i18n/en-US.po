@@ -1,0 +1,2 @@
+msgid "example"
+msgstr "This is an example in device"

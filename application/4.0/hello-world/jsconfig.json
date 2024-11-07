@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "checkJs": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "files": ["node_modules/@zeppos/device-types/dist/index.d.ts"]
+}

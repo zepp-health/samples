@@ -1,0 +1,71 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1000006,
+    "appName": "4.0 Feature",
+    "appType": "app",
+    "version": {
+      "code": 4,
+      "name": "4.0"
+    },
+    "icon": "icon.png",
+    "vender": "Zepp Health",
+    "description": "A sample application about the new features of 4.0"
+  },
+  "permissions": [
+    "event:os.bp.high",
+    "event:os.bp.low",
+    "event:os.bp.expires",
+    "device:os.notification",
+    "event:os.health.sleep_status",
+    "event:os.health.heart_rate_abnl",
+    "event:os.weather.sun_rise",
+    "event:os.weather.sun_set",
+    "event:os.system.power_saving",
+    "event:os.system.theater_mode",
+    "event:os.system.no_disturb",
+    "event:customize.test",
+    "data:os.device.info",
+    "device:os.alarm",
+    "device:os.accelerometer",
+    "device:os.geolocation",
+    "device:os.gyroscope",
+    "device:os.compass",
+    "data:user.hd.sleep",
+    "data:user.hd.heart_rate",
+    "data:user.hd.spo2",
+    "data:user.hd.stress",
+    "device:os.bg_service",
+    "data:user.hd.workout",
+    "device:os.ble"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "4.0",
+      "target": "4.0",
+      "minVersion": "4.0"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index",
+            "page/TC/TC_01/index",
+            "page/TC/TC_02/index",
+            "page/TC/TC_03/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "st": "r"
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "debug": false,
+  "defaultLanguage": "en-US"
+}
